@@ -1,23 +1,72 @@
-<div style="background: #000080;">
-	<div class="container">
-		<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-		  <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none navbar-brand fs-2">
-			DOCA
-			{{-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> --}}
-		  </a>
-	
-		  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-			<li><a href="#" class="nav-link px-2 link-secondary text-white">Home</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark text-white">About DOCA</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark text-white">Programs & Events</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark text-white">Alumni Stories</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark text-white">Opportunities</a></li>
-		  </ul>
-	
-		  <div class="col-md-3 text-end">
+
+<nav class="navbar navbar-expand-md fixed-top" style="background: #000080;">
+	<div class="container-fluid">
+	  <a class="navbar-brand text-white" href="#">DOCA</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav me-auto mb-2 mb-md-0">
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/home">Home</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle px-2 link-dark text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			  About DOCA
+			</a>
+			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			  <li><a class="dropdown-item" href="#">History</a></li>
+			  <li><a class="dropdown-item" href="#">Excom</a></li>
+			  <li><a class="dropdown-item" href="#">Gallery</a></li>
+			  <li><a class="dropdown-item" href="#">Directory</a></li>
+			  <li><a class="dropdown-item" href="#">News</a></li>
+			  <li><a class="dropdown-item" href="#">Contact</a></li>
+			</ul>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle px-2 link-dark text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				Programs & Events
+			</a>
+			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			  <li><a class="dropdown-item" href="#">AGM</a></li>
+			  <li><a class="dropdown-item" href="#">Alumni Day</a></li>
+			  <li><a class="dropdown-item" href="#">CSRs</a></li>
+			  <li><a class="dropdown-item" href="#">Sponsorship</a></li>
+			  <li><a class="dropdown-item" href="#">Latest Members</a></li>
+			  {{-- <li><a class="dropdown-item" href="#">Contact</a></li> --}}
+			</ul>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle px-2 link-dark text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				Programs & Events
+			</a>
+			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			  <li><a class="dropdown-item" href="#">AGM</a></li>
+			  <li><a class="dropdown-item" href="#">Alumni Day</a></li>
+			  <li><a class="dropdown-item" href="#">CSRs</a></li>
+			  <li><a class="dropdown-item" href="#">Sponsorship</a></li>
+			  <li><a class="dropdown-item" href="#">Latest Members</a></li>
+			  {{-- <li><a class="dropdown-item" href="#">Contact</a></li> --}}
+			</ul>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle px-2 link-dark text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				Programs & Events
+			</a>
+			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			  <li><a class="dropdown-item" href="#">AGM</a></li>
+			  <li><a class="dropdown-item" href="#">Alumni Day</a></li>
+			  <li><a class="dropdown-item" href="#">CSRs</a></li>
+			  <li><a class="dropdown-item" href="#">Sponsorship</a></li>
+			  <li><a class="dropdown-item" href="#">Latest Members</a></li>
+			  {{-- <li><a class="dropdown-item" href="#">Contact</a></li> --}}
+			</ul>
+		  </li>
+		</ul>
+		<form class="d-flex">
 			<button type="button" class="btn btn-success me-2 text-white">Login</button>
 			<button type="button" class="btn btn-secondary text-white">Sign-up</button>
-		  </div>
-		</header>
+		</form>
 	  </div>
-</div>
+	</div>
+  </nav>

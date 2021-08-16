@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('home.index');
 });
+
+// About
+Route::get('about', function() {
+    return view('about.index');
+});
